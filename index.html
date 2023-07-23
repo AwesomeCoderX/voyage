@@ -11,12 +11,13 @@ description: "Unleash your wanderlust, one streak at a time"
 {% if page.url == "/" %}
     
 
-<script> console.log('site.url', site.url) </script>
-<script> console.log('site.baseurl', site.baseurl) </script>
-
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 <div class="row remove-site-content-margin">
+    <h1>Site URL: {{ site.url | puts }}</h1>
+    <h1>Base URL: {{ site.baseurl | puts }}</h1>
     <!-- latest post -->
+    {% assign site_url = site.url %}
+    {% assign site_base_url = site.baseurl %}
     {% assign latest_post = site.posts[0] %}
     <div class="col-md-6">
     <div class="card border-0 mb-4 box-shadow">   
