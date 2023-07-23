@@ -55,7 +55,7 @@ description: "Unleash your wanderlust, one streak at a time"
                 {% if second_post.image %}
                 <div class="col-md-4">
                 <a href="{{site.baseurl}}{{second_post.url}}">
-                 <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}https://{{site.baseurl | remove_first: '/' }}/{{ second_post.image }}{% endif %}" alt="{{ second_post.title }}">
+                 <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ site.baseurl }}/{{ second_post.image }}{% endif %}" alt="{{ second_post.title }}">
                 </a>
                 </div>
                 {% endif %}                
@@ -82,7 +82,7 @@ description: "Unleash your wanderlust, one streak at a time"
                 {% if third_post.image %}
                 <div class="col-md-4">
                 <a href="{{site.baseurl}}{{third_post.url}}">
-                 <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}https://{{site.baseurl | remove_first: '/' }}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
+                    <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
                 </a>
                 </div>
                 {% endif %}                
@@ -109,7 +109,7 @@ description: "Unleash your wanderlust, one streak at a time"
                 {% if fourth_post.image %}
                 <div class="col-md-4">
                 <a href="{{site.baseurl}}{{fourth_post.url}}">
-                <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}https://{{site.baseurl | remove_first: '/' }}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
+                <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
                 </a>
                 </div>
                 {% endif %}                
@@ -147,7 +147,7 @@ description: "Unleash your wanderlust, one streak at a time"
                 </p>
                 <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>
             </div>
-            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url(https://{{site.baseurl | remove_first: '/' }}/{{ post.image }});">	
+            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">	
             </div>
         </div>
     </div>
