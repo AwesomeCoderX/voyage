@@ -3,8 +3,8 @@ layout: post
 title: "Top 10 places to visit in Romania"
 author: streaktravel
 categories: [ tourism, romania ]
-tags: sticky
-image: assets/images/top-10-places-to-visit-in-romania/bran-castle.webp
+tags: [ featured, sticky ]
+image: assets/images/top-10-places-to-visit-in-romania/danube-delta.webp
 ---
 
 Romania is a country with a rich tapestry of history, culture, and natural beauty. From captivating castles and medieval citadels to stunning landscapes and vibrant cities, there is something for every traveler. Here are the top 10 places in Romania that should be on your must-visit list:
