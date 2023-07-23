@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Top 10 places to visit in Romania"
-author: AwesomeCoderX
+author: streaktravel
 categories: [ tourism, romania ]
 tags: sticky
 image: assets/images/top-10-places-to-visit-in-romania/bran-castle.webp

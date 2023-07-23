@@ -2,7 +2,7 @@
 layout: post
 title: "Why Thailand should be your next destination"
 categories: [ tourism, thailand ]
-author: AwesomeCoderX
+author: streaktravel
 tags: featured
 image: assets/images/why-thailand-should-be-your-next-destination/thailand.webp
 blogUid: 91f5424e-23e4-47e6-8a56-8fad835f8597
