@@ -22,9 +22,9 @@ tee -a $post_path << END
 layout: post
 title: "${*}"
 date: ${post_date}
-categories: development
-author: theuntoldapps
-tags: development
+categories: [ tourism ]
+author: streaktravel
+tags: [ tourism, travel ]
 comments: true
 blogUid: $blogUid
 ---
