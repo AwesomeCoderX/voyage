@@ -1,7 +1,7 @@
 # Site
 name: 'Streak Travel'
 description: 'Travel Blog'
-logo: 'assets/images/logo.png'
+logo: 'assets/images/logo.jpg'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
 url: 'streaktravel.com'
