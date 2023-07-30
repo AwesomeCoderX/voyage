@@ -25,6 +25,7 @@ date: ${post_date}
 categories: [ tourism ]
 author: streaktravel
 tags: [ tourism, travel ]
+image: 
 comments: true
 blogUid: $blogUid
 ---

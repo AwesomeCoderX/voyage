@@ -2,9 +2,10 @@
 layout: post
 title: "Top 10 Must-Visit Places in Seychelles - A Tropical Paradise Unveiled"
 date: 2023-07-29 19:12 +0530
-categories: [ tourism ]
+categories: [ tourism, seychelles ]
 author: streaktravel
 tags: [ featured, sticky ]
+image: assets/images/top-10-must-visit-places-in-seychelles/seychelles_banner.webp
 comments: true
 blogUid: 0c1cb6e9-95b9-44de-80a3-d19c11b56fa6
 ---
