@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "13 Reasons Why You Need to Visit Germany"
-date: 2023-07-30 11:16 +0530
 categories: [ tourism, germany, europe ]
 author: streaktravel
 tags: [ featured ]
